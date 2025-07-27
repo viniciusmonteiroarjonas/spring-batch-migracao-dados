@@ -1,0 +1,10 @@
+/home/vinicius/www/github/spring-batch-migracao-dados/src/main/java/com/udemy/migracao/MigracaoDatabaseSpringBatchApplication.java
+/home/vinicius/www/github/spring-batch-migracao-dados/src/main/java/com/udemy/migracao/config/DatasourceConfig.java
+/home/vinicius/www/github/spring-batch-migracao-dados/src/main/java/com/udemy/migracao/config/FlywayAppConfig.java
+/home/vinicius/www/github/spring-batch-migracao-dados/src/main/java/com/udemy/migracao/config/FlywaySpringConfig.java
+/home/vinicius/www/github/spring-batch-migracao-dados/src/main/java/com/udemy/migracao/config/SwaggerConfig.java
+/home/vinicius/www/github/spring-batch-migracao-dados/src/main/java/com/udemy/migracao/controller/BatchController.java
+/home/vinicius/www/github/spring-batch-migracao-dados/src/main/java/com/udemy/migracao/controller/dto/MigracaoJobRequest.java
+/home/vinicius/www/github/spring-batch-migracao-dados/src/main/java/com/udemy/migracao/domain/DadosBancario.java
+/home/vinicius/www/github/spring-batch-migracao-dados/src/main/java/com/udemy/migracao/domain/Pessoa.java
+/home/vinicius/www/github/spring-batch-migracao-dados/src/main/java/com/udemy/migracao/jobs/MigracaoJobSpringBatchConfig.java

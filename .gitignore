@@ -1,0 +1,77 @@
+# Arquivos binários e compilados
+/target/
+/out/
+
+# Diretórios do build do Gradle
+/build/
+
+# Logs
+*.log
+
+# Arquivos temporários do sistema
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# Arquivos e pastas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Configurações específicas do Eclipse
+.settings/
+.project
+
+# Configurações específicas do IntelliJ
+*.iml
+.idea/
+out/
+
+# Arquivos de configuração do Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Diretórios do Docker e volumes
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Volumes do Docker (se estiverem dentro do projeto)
+mysql-data/
+
+# Arquivos de configuração do Flyway (às vezes gerados)
+flyway.conf
+
+# Arquivos do sistema do Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Arquivos gerados por ferramentas de build
+dependency-reduced-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Outros arquivos
+*.log
+hs_err_pid*
+
+# Configuração do ambiente local
+.env
+
+# Arquivos de cache
+*.cache
+
+# Ignorar arquivos gerados por testes
+surefire-reports/

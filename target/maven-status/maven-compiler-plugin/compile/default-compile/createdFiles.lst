@@ -1,0 +1,14 @@
+com/udemy/migracao/config/FlywayAppConfig.class
+META-INF/spring-configuration-metadata.json
+com/udemy/migracao/config/FlywaySpringConfig.class
+com/udemy/migracao/domain/DadosBancario$DadosBancarioBuilder.class
+com/udemy/migracao/controller/dto/MigracaoJobRequest.class
+com/udemy/migracao/domain/Pessoa$PessoaBuilder.class
+com/udemy/migracao/config/DatasourceConfig.class
+com/udemy/migracao/MigracaoDatabaseSpringBatchApplication.class
+com/udemy/migracao/controller/BatchController.class
+com/udemy/migracao/domain/Pessoa.class
+com/udemy/migracao/jobs/MigracaoJobSpringBatchConfig.class
+com/udemy/migracao/domain/DadosBancario.class
+com/udemy/migracao/controller/dto/MigracaoJobRequest$MigracaoJobRequestBuilder.class
+com/udemy/migracao/config/SwaggerConfig.class

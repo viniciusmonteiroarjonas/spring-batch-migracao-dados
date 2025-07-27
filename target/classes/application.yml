@@ -1,0 +1,30 @@
+spring:
+  flyway:
+    enabled: false
+
+batch:
+  datasource:
+    url: jdbc:mysql://localhost:3306/batch_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+app:
+  datasource:
+    url: jdbc:mysql://localhost:3306/app_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 8080
+
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: alpha
+    display-request-duration: true
+    deep-linking: true
