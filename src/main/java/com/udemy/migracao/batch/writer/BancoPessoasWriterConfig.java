@@ -1,7 +1,6 @@
 package com.udemy.migracao.batch.writer;
 
 import com.udemy.migracao.domain.Pessoa;
-import org.springframework.batch.item.ItemWriter;
 import org.springframework.batch.item.database.ItemPreparedStatementSetter;
 import org.springframework.batch.item.database.JdbcBatchItemWriter;
 import org.springframework.batch.item.database.builder.JdbcBatchItemWriterBuilder;
@@ -15,7 +14,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 @Configuration
-public class PessoaItemWriter {
+public class BancoPessoasWriterConfig {
 
     @Bean
     public JdbcBatchItemWriter<Pessoa> bancoPessoaWriter(

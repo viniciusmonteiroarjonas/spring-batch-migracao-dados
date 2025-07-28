@@ -1,6 +1,4 @@
-DROP TABLE IF EXISTS dados_bancarios;
 DROP TABLE IF EXISTS pessoa;
-
 CREATE TABLE pessoa (
     id INT PRIMARY KEY,
     nome VARCHAR(500),
@@ -9,11 +7,11 @@ CREATE TABLE pessoa (
     idade INT
 );
 
+DROP TABLE IF EXISTS dados_bancarios;
 CREATE TABLE dados_bancarios (
     id INT PRIMARY KEY,
     pessoa_id INT,
-    agencia INT,
-    conta INT,
-    banco INT,
-    CONSTRAINT fk_dados_bancarios_pessoa FOREIGN KEY (pessoa_id) REFERENCES pessoa(id)
+    agencia VARCHAR(100),
+    conta VARCHAR(100),
+    banco VARCHAR(100)
 );
